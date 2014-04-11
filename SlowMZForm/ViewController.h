@@ -10,4 +10,6 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)showMZForm:(id)sender;
+
 @end
