@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TDPickerController">
+            <connections>
+                <outlet property="applyButton" destination="Umz-ex-KQS" id="vrp-7s-npl"/>
+                <outlet property="applyToolbarButton" destination="35y-a1-e5d" id="Hpf-dZ-Urk"/>
+                <outlet property="cancelButton" destination="MZs-Px-jCj" id="yed-eq-tZd"/>
+                <outlet property="cancelToolbarButton" destination="eJ5-Ww-4DV" id="4zx-qU-Mpz"/>
+                <outlet property="pickerView" destination="cbm-Jf-mWe" id="M5p-ec-fUI"/>
+                <outlet property="titleLabel" destination="2TF-gd-X5a" id="LZN-5b-IWA"/>
+                <outlet property="titleToolbarLabel" destination="QtH-PP-YUO" id="hpY-fS-w5y"/>
+                <outlet property="toolbar" destination="xkb-eu-eL7" id="1SA-Jh-cEm"/>
+                <outlet property="view" destination="1" id="bcV-hL-J1k"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view opaque="NO" alpha="0.69999999999999973" contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="248"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <pickerView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cbm-Jf-mWe">
+                    <rect key="frame" x="0.0" y="42" width="320" height="162"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="162" id="3cs-mD-YpE"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="GsL-yj-O7y"/>
+                        <outlet property="delegate" destination="-1" id="5Ou-vw-E39"/>
+                    </connections>
+                </pickerView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZs-Px-jCj">
+                    <rect key="frame" x="230" y="205" width="70" height="44"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Cancel"/>
+                    <connections>
+                        <action selector="cancelEdit:" destination="-1" eventType="touchUpInside" id="3Gv-rW-B6K"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Umz-ex-KQS">
+                    <rect key="frame" x="125" y="205" width="70" height="44"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Apply">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="applyEdit:" destination="-1" eventType="touchUpInside" id="yfe-0q-o1K"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2TF-gd-X5a">
+                    <rect key="frame" x="56" y="13" width="209" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xkb-eu-eL7">
+                    <rect key="frame" x="0.0" y="-2" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <items>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="yNe-tQ-Sqr"/>
+                        <barButtonItem title="Apply" id="35y-a1-e5d">
+                            <connections>
+                                <action selector="applyEdit:" destination="-1" id="fvX-33-e9u"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem title="Cancel" id="eJ5-Ww-4DV">
+                            <connections>
+                                <action selector="cancelEdit:" destination="-1" id="9Rh-yb-dVP"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QtH-PP-YUO">
+                    <rect key="frame" x="10" y="9" width="172" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="cbm-Jf-mWe" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="79u-kJ-KQn"/>
+                <constraint firstAttribute="trailing" secondItem="cbm-Jf-mWe" secondAttribute="trailing" id="q0e-l1-ts9"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>
