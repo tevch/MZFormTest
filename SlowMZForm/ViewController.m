@@ -27,9 +27,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)showMZForm:(id)sender {
-    NSLog(@"showMZForm");
-    
++(TDPickerController*)createPicker {
     NSMutableArray * patternValues = [[NSMutableArray alloc] init];
     for(int altitude = 100; altitude<1500;altitude+=50) {
         [patternValues addObject: [NSString stringWithFormat:@"%d", altitude]];
@@ -40,7 +38,19 @@
     picker.pickerData = patternValues;
     picker.selectedValue = [NSString stringWithFormat:@"%d", 500];
     
+    return picker;
+}
+
+- (IBAction)showMZForm:(id)sender {
+    NSLog(@"showMZForm");
+    
+    
+    TDPickerController* picker = [ViewController createPicker];
     [picker showDialog];
+}
+- (IBAction)showView:(id)sender {
+    TDPickerController* picker = [ViewController createPicker];
+    [self.navigationController pushViewController:picker animated:YES];
 }
 
 @end

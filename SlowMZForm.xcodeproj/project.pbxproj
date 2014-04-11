@@ -22,6 +22,17 @@
 		F9A04D9D18F7B31200955650 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A04D7C18F7B31200955650 /* UIKit.framework */; };
 		F9A04DA518F7B31200955650 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9A04DA318F7B31200955650 /* InfoPlist.strings */; };
 		F9A04DA718F7B31200955650 /* SlowMZFormTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A04DA618F7B31200955650 /* SlowMZFormTests.m */; };
+		F9A04DC018F7B3B100955650 /* MZFormSheetBackgroundWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A04DB318F7B3B100955650 /* MZFormSheetBackgroundWindow.m */; };
+		F9A04DC118F7B3B100955650 /* MZFormSheetBackgroundWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A04DB518F7B3B100955650 /* MZFormSheetBackgroundWindowViewController.m */; };
+		F9A04DC218F7B3B100955650 /* MZFormSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A04DB718F7B3B100955650 /* MZFormSheetController.m */; };
+		F9A04DC318F7B3B100955650 /* MZFormSheetSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A04DB918F7B3B100955650 /* MZFormSheetSegue.m */; };
+		F9A04DC418F7B3B100955650 /* MZTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A04DBB18F7B3B100955650 /* MZTransition.m */; };
+		F9A04DC518F7B3B100955650 /* UIImage+Additional.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A04DBD18F7B3B100955650 /* UIImage+Additional.m */; };
+		F9A04DC618F7B3B100955650 /* UIViewController+TargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A04DBF18F7B3B100955650 /* UIViewController+TargetViewController.m */; };
+		F9A04DCC18F7B3BD00955650 /* MZAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A04DC918F7B3BD00955650 /* MZAppearance.m */; };
+		F9A04DCD18F7B3BD00955650 /* NSInvocation+Copy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A04DCB18F7B3BD00955650 /* NSInvocation+Copy.m */; };
+		F9A04DD118F7B52900955650 /* TDPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A04DCF18F7B52900955650 /* TDPickerController.m */; };
+		F9A04DD218F7B52900955650 /* TDPickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9A04DD018F7B52900955650 /* TDPickerController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +66,27 @@
 		F9A04DA218F7B31200955650 /* SlowMZFormTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlowMZFormTests-Info.plist"; sourceTree = "<group>"; };
 		F9A04DA418F7B31200955650 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F9A04DA618F7B31200955650 /* SlowMZFormTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlowMZFormTests.m; sourceTree = "<group>"; };
+		F9A04DB218F7B3B100955650 /* MZFormSheetBackgroundWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetBackgroundWindow.h; sourceTree = "<group>"; };
+		F9A04DB318F7B3B100955650 /* MZFormSheetBackgroundWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetBackgroundWindow.m; sourceTree = "<group>"; };
+		F9A04DB418F7B3B100955650 /* MZFormSheetBackgroundWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetBackgroundWindowViewController.h; sourceTree = "<group>"; };
+		F9A04DB518F7B3B100955650 /* MZFormSheetBackgroundWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetBackgroundWindowViewController.m; sourceTree = "<group>"; };
+		F9A04DB618F7B3B100955650 /* MZFormSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetController.h; sourceTree = "<group>"; };
+		F9A04DB718F7B3B100955650 /* MZFormSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetController.m; sourceTree = "<group>"; };
+		F9A04DB818F7B3B100955650 /* MZFormSheetSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetSegue.h; sourceTree = "<group>"; };
+		F9A04DB918F7B3B100955650 /* MZFormSheetSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetSegue.m; sourceTree = "<group>"; };
+		F9A04DBA18F7B3B100955650 /* MZTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTransition.h; sourceTree = "<group>"; };
+		F9A04DBB18F7B3B100955650 /* MZTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTransition.m; sourceTree = "<group>"; };
+		F9A04DBC18F7B3B100955650 /* UIImage+Additional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additional.h"; sourceTree = "<group>"; };
+		F9A04DBD18F7B3B100955650 /* UIImage+Additional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additional.m"; sourceTree = "<group>"; };
+		F9A04DBE18F7B3B100955650 /* UIViewController+TargetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TargetViewController.h"; sourceTree = "<group>"; };
+		F9A04DBF18F7B3B100955650 /* UIViewController+TargetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TargetViewController.m"; sourceTree = "<group>"; };
+		F9A04DC818F7B3BD00955650 /* MZAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZAppearance.h; sourceTree = "<group>"; };
+		F9A04DC918F7B3BD00955650 /* MZAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZAppearance.m; sourceTree = "<group>"; };
+		F9A04DCA18F7B3BD00955650 /* NSInvocation+Copy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+Copy.h"; sourceTree = "<group>"; };
+		F9A04DCB18F7B3BD00955650 /* NSInvocation+Copy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+Copy.m"; sourceTree = "<group>"; };
+		F9A04DCE18F7B52900955650 /* TDPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDPickerController.h; sourceTree = "<group>"; };
+		F9A04DCF18F7B52900955650 /* TDPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDPickerController.m; sourceTree = "<group>"; };
+		F9A04DD018F7B52900955650 /* TDPickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TDPickerController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +120,7 @@
 				F9A04DA018F7B31200955650 /* SlowMZFormTests */,
 				F9A04D7718F7B31200955650 /* Frameworks */,
 				F9A04D7618F7B31200955650 /* Products */,
+				F9A04DB118F7B3B100955650 /* MZFormSheetController */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +153,9 @@
 				F9A04D8D18F7B31200955650 /* Main_iPad.storyboard */,
 				F9A04D9018F7B31200955650 /* ViewController.h */,
 				F9A04D9118F7B31200955650 /* ViewController.m */,
+				F9A04DCE18F7B52900955650 /* TDPickerController.h */,
+				F9A04DCF18F7B52900955650 /* TDPickerController.m */,
+				F9A04DD018F7B52900955650 /* TDPickerController.xib */,
 				F9A04D9318F7B31200955650 /* Images.xcassets */,
 				F9A04D7F18F7B31200955650 /* Supporting Files */,
 			);
@@ -153,6 +189,41 @@
 				F9A04DA318F7B31200955650 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9A04DB118F7B3B100955650 /* MZFormSheetController */ = {
+			isa = PBXGroup;
+			children = (
+				F9A04DC718F7B3BD00955650 /* Additional */,
+				F9A04DB218F7B3B100955650 /* MZFormSheetBackgroundWindow.h */,
+				F9A04DB318F7B3B100955650 /* MZFormSheetBackgroundWindow.m */,
+				F9A04DB418F7B3B100955650 /* MZFormSheetBackgroundWindowViewController.h */,
+				F9A04DB518F7B3B100955650 /* MZFormSheetBackgroundWindowViewController.m */,
+				F9A04DB618F7B3B100955650 /* MZFormSheetController.h */,
+				F9A04DB718F7B3B100955650 /* MZFormSheetController.m */,
+				F9A04DB818F7B3B100955650 /* MZFormSheetSegue.h */,
+				F9A04DB918F7B3B100955650 /* MZFormSheetSegue.m */,
+				F9A04DBA18F7B3B100955650 /* MZTransition.h */,
+				F9A04DBB18F7B3B100955650 /* MZTransition.m */,
+				F9A04DBC18F7B3B100955650 /* UIImage+Additional.h */,
+				F9A04DBD18F7B3B100955650 /* UIImage+Additional.m */,
+				F9A04DBE18F7B3B100955650 /* UIViewController+TargetViewController.h */,
+				F9A04DBF18F7B3B100955650 /* UIViewController+TargetViewController.m */,
+			);
+			name = MZFormSheetController;
+			path = "../../spotassist-stage/MZFormSheetController/MZFormSheetController";
+			sourceTree = "<group>";
+		};
+		F9A04DC718F7B3BD00955650 /* Additional */ = {
+			isa = PBXGroup;
+			children = (
+				F9A04DC818F7B3BD00955650 /* MZAppearance.h */,
+				F9A04DC918F7B3BD00955650 /* MZAppearance.m */,
+				F9A04DCA18F7B3BD00955650 /* NSInvocation+Copy.h */,
+				F9A04DCB18F7B3BD00955650 /* NSInvocation+Copy.m */,
+			);
+			name = Additional;
+			path = ../Additional;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +305,7 @@
 				F9A04D9418F7B31200955650 /* Images.xcassets in Resources */,
 				F9A04D8C18F7B31200955650 /* Main_iPhone.storyboard in Resources */,
 				F9A04D8318F7B31200955650 /* InfoPlist.strings in Resources */,
+				F9A04DD218F7B52900955650 /* TDPickerController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,9 +324,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9A04DC318F7B3B100955650 /* MZFormSheetSegue.m in Sources */,
+				F9A04DC018F7B3B100955650 /* MZFormSheetBackgroundWindow.m in Sources */,
+				F9A04DD118F7B52900955650 /* TDPickerController.m in Sources */,
+				F9A04DC518F7B3B100955650 /* UIImage+Additional.m in Sources */,
 				F9A04D9218F7B31200955650 /* ViewController.m in Sources */,
+				F9A04DC418F7B3B100955650 /* MZTransition.m in Sources */,
+				F9A04DC218F7B3B100955650 /* MZFormSheetController.m in Sources */,
+				F9A04DC618F7B3B100955650 /* UIViewController+TargetViewController.m in Sources */,
+				F9A04DCC18F7B3BD00955650 /* MZAppearance.m in Sources */,
+				F9A04DC118F7B3B100955650 /* MZFormSheetBackgroundWindowViewController.m in Sources */,
 				F9A04D8918F7B31200955650 /* AppDelegate.m in Sources */,
 				F9A04D8518F7B31200955650 /* main.m in Sources */,
+				F9A04DCD18F7B3BD00955650 /* NSInvocation+Copy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +476,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SlowMZForm/SlowMZForm-Prefix.pch";
 				INFOPLIST_FILE = "SlowMZForm/SlowMZForm-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -407,6 +490,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SlowMZForm/SlowMZForm-Prefix.pch";
 				INFOPLIST_FILE = "SlowMZForm/SlowMZForm-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -473,6 +557,7 @@
 				F9A04DAC18F7B31200955650 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9A04DAD18F7B31200955650 /* Build configuration list for PBXNativeTarget "SlowMZFormTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +566,7 @@
 				F9A04DAF18F7B31200955650 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
