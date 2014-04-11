@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9A04D7918F7B31200955650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A04D7818F7B31200955650 /* Foundation.framework */; };
+		F9A04D7B18F7B31200955650 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A04D7A18F7B31200955650 /* CoreGraphics.framework */; };
+		F9A04D7D18F7B31200955650 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A04D7C18F7B31200955650 /* UIKit.framework */; };
+		F9A04D8318F7B31200955650 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9A04D8118F7B31200955650 /* InfoPlist.strings */; };
+		F9A04D8518F7B31200955650 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A04D8418F7B31200955650 /* main.m */; };
+		F9A04D8918F7B31200955650 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A04D8818F7B31200955650 /* AppDelegate.m */; };
+		F9A04D8C18F7B31200955650 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9A04D8A18F7B31200955650 /* Main_iPhone.storyboard */; };
+		F9A04D8F18F7B31200955650 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9A04D8D18F7B31200955650 /* Main_iPad.storyboard */; };
+		F9A04D9218F7B31200955650 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A04D9118F7B31200955650 /* ViewController.m */; };
+		F9A04D9418F7B31200955650 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9A04D9318F7B31200955650 /* Images.xcassets */; };
+		F9A04D9B18F7B31200955650 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A04D9A18F7B31200955650 /* XCTest.framework */; };
+		F9A04D9C18F7B31200955650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A04D7818F7B31200955650 /* Foundation.framework */; };
+		F9A04D9D18F7B31200955650 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A04D7C18F7B31200955650 /* UIKit.framework */; };
+		F9A04DA518F7B31200955650 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9A04DA318F7B31200955650 /* InfoPlist.strings */; };
+		F9A04DA718F7B31200955650 /* SlowMZFormTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A04DA618F7B31200955650 /* SlowMZFormTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9A04D9E18F7B31200955650 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9A04D6D18F7B31200955650 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9A04D7418F7B31200955650;
+			remoteInfo = SlowMZForm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9A04D7518F7B31200955650 /* SlowMZForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlowMZForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A04D7818F7B31200955650 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F9A04D7A18F7B31200955650 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F9A04D7C18F7B31200955650 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F9A04D8018F7B31200955650 /* SlowMZForm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlowMZForm-Info.plist"; sourceTree = "<group>"; };
+		F9A04D8218F7B31200955650 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9A04D8418F7B31200955650 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9A04D8618F7B31200955650 /* SlowMZForm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlowMZForm-Prefix.pch"; sourceTree = "<group>"; };
+		F9A04D8718F7B31200955650 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9A04D8818F7B31200955650 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9A04D8B18F7B31200955650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		F9A04D8E18F7B31200955650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		F9A04D9018F7B31200955650 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F9A04D9118F7B31200955650 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F9A04D9318F7B31200955650 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F9A04D9918F7B31200955650 /* SlowMZFormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlowMZFormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A04D9A18F7B31200955650 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F9A04DA218F7B31200955650 /* SlowMZFormTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlowMZFormTests-Info.plist"; sourceTree = "<group>"; };
+		F9A04DA418F7B31200955650 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9A04DA618F7B31200955650 /* SlowMZFormTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlowMZFormTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9A04D7218F7B31200955650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A04D7B18F7B31200955650 /* CoreGraphics.framework in Frameworks */,
+				F9A04D7D18F7B31200955650 /* UIKit.framework in Frameworks */,
+				F9A04D7918F7B31200955650 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A04D9618F7B31200955650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A04D9B18F7B31200955650 /* XCTest.framework in Frameworks */,
+				F9A04D9D18F7B31200955650 /* UIKit.framework in Frameworks */,
+				F9A04D9C18F7B31200955650 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9A04D6C18F7B31200955650 = {
+			isa = PBXGroup;
+			children = (
+				F9A04D7E18F7B31200955650 /* SlowMZForm */,
+				F9A04DA018F7B31200955650 /* SlowMZFormTests */,
+				F9A04D7718F7B31200955650 /* Frameworks */,
+				F9A04D7618F7B31200955650 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9A04D7618F7B31200955650 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9A04D7518F7B31200955650 /* SlowMZForm.app */,
+				F9A04D9918F7B31200955650 /* SlowMZFormTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9A04D7718F7B31200955650 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9A04D7818F7B31200955650 /* Foundation.framework */,
+				F9A04D7A18F7B31200955650 /* CoreGraphics.framework */,
+				F9A04D7C18F7B31200955650 /* UIKit.framework */,
+				F9A04D9A18F7B31200955650 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9A04D7E18F7B31200955650 /* SlowMZForm */ = {
+			isa = PBXGroup;
+			children = (
+				F9A04D8718F7B31200955650 /* AppDelegate.h */,
+				F9A04D8818F7B31200955650 /* AppDelegate.m */,
+				F9A04D8A18F7B31200955650 /* Main_iPhone.storyboard */,
+				F9A04D8D18F7B31200955650 /* Main_iPad.storyboard */,
+				F9A04D9018F7B31200955650 /* ViewController.h */,
+				F9A04D9118F7B31200955650 /* ViewController.m */,
+				F9A04D9318F7B31200955650 /* Images.xcassets */,
+				F9A04D7F18F7B31200955650 /* Supporting Files */,
+			);
+			path = SlowMZForm;
+			sourceTree = "<group>";
+		};
+		F9A04D7F18F7B31200955650 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9A04D8018F7B31200955650 /* SlowMZForm-Info.plist */,
+				F9A04D8118F7B31200955650 /* InfoPlist.strings */,
+				F9A04D8418F7B31200955650 /* main.m */,
+				F9A04D8618F7B31200955650 /* SlowMZForm-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9A04DA018F7B31200955650 /* SlowMZFormTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9A04DA618F7B31200955650 /* SlowMZFormTests.m */,
+				F9A04DA118F7B31200955650 /* Supporting Files */,
+			);
+			path = SlowMZFormTests;
+			sourceTree = "<group>";
+		};
+		F9A04DA118F7B31200955650 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9A04DA218F7B31200955650 /* SlowMZFormTests-Info.plist */,
+				F9A04DA318F7B31200955650 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9A04D7418F7B31200955650 /* SlowMZForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9A04DAA18F7B31200955650 /* Build configuration list for PBXNativeTarget "SlowMZForm" */;
+			buildPhases = (
+				F9A04D7118F7B31200955650 /* Sources */,
+				F9A04D7218F7B31200955650 /* Frameworks */,
+				F9A04D7318F7B31200955650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlowMZForm;
+			productName = SlowMZForm;
+			productReference = F9A04D7518F7B31200955650 /* SlowMZForm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9A04D9818F7B31200955650 /* SlowMZFormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9A04DAD18F7B31200955650 /* Build configuration list for PBXNativeTarget "SlowMZFormTests" */;
+			buildPhases = (
+				F9A04D9518F7B31200955650 /* Sources */,
+				F9A04D9618F7B31200955650 /* Frameworks */,
+				F9A04D9718F7B31200955650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9A04D9F18F7B31200955650 /* PBXTargetDependency */,
+			);
+			name = SlowMZFormTests;
+			productName = SlowMZFormTests;
+			productReference = F9A04D9918F7B31200955650 /* SlowMZFormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9A04D6D18F7B31200955650 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					F9A04D9818F7B31200955650 = {
+						TestTargetID = F9A04D7418F7B31200955650;
+					};
+				};
+			};
+			buildConfigurationList = F9A04D7018F7B31200955650 /* Build configuration list for PBXProject "SlowMZForm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9A04D6C18F7B31200955650;
+			productRefGroup = F9A04D7618F7B31200955650 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9A04D7418F7B31200955650 /* SlowMZForm */,
+				F9A04D9818F7B31200955650 /* SlowMZFormTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9A04D7318F7B31200955650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A04D8F18F7B31200955650 /* Main_iPad.storyboard in Resources */,
+				F9A04D9418F7B31200955650 /* Images.xcassets in Resources */,
+				F9A04D8C18F7B31200955650 /* Main_iPhone.storyboard in Resources */,
+				F9A04D8318F7B31200955650 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A04D9718F7B31200955650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A04DA518F7B31200955650 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9A04D7118F7B31200955650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A04D9218F7B31200955650 /* ViewController.m in Sources */,
+				F9A04D8918F7B31200955650 /* AppDelegate.m in Sources */,
+				F9A04D8518F7B31200955650 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A04D9518F7B31200955650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A04DA718F7B31200955650 /* SlowMZFormTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9A04D9F18F7B31200955650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9A04D7418F7B31200955650 /* SlowMZForm */;
+			targetProxy = F9A04D9E18F7B31200955650 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9A04D8118F7B31200955650 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9A04D8218F7B31200955650 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F9A04D8A18F7B31200955650 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9A04D8B18F7B31200955650 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F9A04D8D18F7B31200955650 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9A04D8E18F7B31200955650 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F9A04DA318F7B31200955650 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9A04DA418F7B31200955650 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9A04DA818F7B31200955650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9A04DA918F7B31200955650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9A04DAB18F7B31200955650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlowMZForm/SlowMZForm-Prefix.pch";
+				INFOPLIST_FILE = "SlowMZForm/SlowMZForm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F9A04DAC18F7B31200955650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlowMZForm/SlowMZForm-Prefix.pch";
+				INFOPLIST_FILE = "SlowMZForm/SlowMZForm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F9A04DAE18F7B31200955650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SlowMZForm.app/SlowMZForm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlowMZForm/SlowMZForm-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SlowMZFormTests/SlowMZFormTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F9A04DAF18F7B31200955650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SlowMZForm.app/SlowMZForm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlowMZForm/SlowMZForm-Prefix.pch";
+				INFOPLIST_FILE = "SlowMZFormTests/SlowMZFormTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9A04D7018F7B31200955650 /* Build configuration list for PBXProject "SlowMZForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9A04DA818F7B31200955650 /* Debug */,
+				F9A04DA918F7B31200955650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9A04DAA18F7B31200955650 /* Build configuration list for PBXNativeTarget "SlowMZForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9A04DAB18F7B31200955650 /* Debug */,
+				F9A04DAC18F7B31200955650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9A04DAD18F7B31200955650 /* Build configuration list for PBXNativeTarget "SlowMZFormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9A04DAE18F7B31200955650 /* Debug */,
+				F9A04DAF18F7B31200955650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9A04D6D18F7B31200955650 /* Project object */;
+}
